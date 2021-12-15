@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_catalogue/home_page.dart';
 
 void main() {
   // ignore: prefer_const_constructors
@@ -11,14 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      // ignore: avoid_unnecessary_containers
-      home: Material(
-        child: Center(
-          child: Container(
-            child: Text('Hello'),
-          ),
-        ),
-      ),
+      home: HomePage(),
     );
   }
 }
